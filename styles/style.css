@@ -1,3 +1,4 @@
+div   {border: 1px solid red;}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -31,8 +32,6 @@ top: 30px;
 left: 64px;
 background-image: url(../images/logo_place_header.svg);
 }
-
-
 .header__title {
 align-self: center;
 width: 730px;
@@ -79,7 +78,6 @@ font-weight: normal;
   margin: 100px auto;
   display: flex;
   flex-direction: row;
-
 }
 .description__two-columns-title {
   display: flex;
@@ -266,22 +264,17 @@ margin: 0;
   justify-content: space-between;
   margin: auto;
 }
-
-
 .footer___column-content-copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
-
 .logo_footer {
 background-image: url(../images/logo_place_footer.svg);
 width: 183px;
 height: 35px;
 position: static;
 }
-
 /*Высота строки 25px, размер шрифта 18px, начертание шрифта
 нормальное*/
 .footer___author {
@@ -290,7 +283,6 @@ position: static;
   font-weight: normal;
   margin: 18px 0;
 }
-
 /*Высота строки 30px, размер шрифта 18px, начертание шрифта
 полужирное*/
 .footer___column-heading {
@@ -308,25 +300,22 @@ position: static;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-
 }
 .column-links {
 text-decoration: none;
 color: white;}
-
-.footer___column-social {z-index: 1;
+.footer___column-social {
+  z-index: 1;
 }
-
 .footer___social-img {
 margin-right: 10px;
 width: 16px;
 height: 16px;;
 }
-
 .footer__social_link {
   text-decoration: none;
-  color: white;}
-
+  color: white;
+}
 .footer___social-icon {
   display: flex;
   flex-direction: column;
