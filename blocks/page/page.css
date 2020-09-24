@@ -10,7 +10,7 @@
   color: #000000;
 }
 /*div, img, p, h1, h2, h3 {border: 1px solid red;}*/
-a:hover {
+a {
   opacity: 1;
   transition: opacity 0.5s linear;
 
