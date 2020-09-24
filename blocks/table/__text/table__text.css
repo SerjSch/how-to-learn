@@ -1,0 +1,9 @@
+/*Высота строки 1.2, размер шрифта 18px, начертание шрифта
+нормальное*/
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 20px;
+}

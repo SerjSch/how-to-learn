@@ -9,15 +9,12 @@
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   color: #000000;
 }
-
-
+/*div, img, p, h1, h2, h3 {border: 1px solid red;}*/
 a:hover {
   opacity: 1;
   transition: opacity 0.5s linear;
 
 }
-
 a:hover {
   opacity: 0.4;
 }
-

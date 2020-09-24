@@ -1,0 +1,10 @@
+
+/*Высота строки 23px, размер шрифта 18px, начертание шрифта
+нормальное*/
+
+.cards__description {
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  margin-top: 16px;
+}

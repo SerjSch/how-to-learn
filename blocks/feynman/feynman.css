@@ -1,3 +1,7 @@
+@import url(./__link/feynman__link.css);
+@import url(./__subtitle/feynman__subtitle.css);
+@import url(./__title/feynman__title.css);
+
 .feynman {
   background-color: #f2f2f2;
   position: relative;
@@ -7,35 +11,6 @@
   background-position-y: bottom;
   padding-top: 80px;
   background-repeat: no-repeat;
-} 
-/*Высота строки 1.15, размер шрифта 120px, начертание шрифта
-полужирное 867x637px*/
-.feynman__title {
-  width: 648px;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  margin: 0 auto;
-  text-align: center;
 }
-/*Высота строки 51px, размер шрифта 36px, начертание шрифта
-нормальное*/
-.feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-align: center;
-  margin-top: 70px;
-}
-/*Высота строки 51px, размер шрифта 36px, начертание шрифта
-нормальное*/
-.feynman__link {
-  position: absolute;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
-  top: 50%;
-  right: 48px;
-}
+
+

@@ -1,3 +1,6 @@
+@import url(../rotation/rotation.css);
+@import url(./__triangle/kaufman__triangle.css);
+
 .kaufman {
   display: flex;
   flex-direction: column;
@@ -6,34 +9,4 @@
   background-color: #1f1f1f;
   overflow: hidden;
   padding: 90px 0;
-}
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-.section-title_theme_dark {
-  line-height: 69px;
-  color: white;
-}
-  /*Высота строки 34px, размер шрифта 24px, начертание шрифта
-нормальное*/
-.section-subtitle_theme_dark {
-  color: white;
-}
-.table_theme_dark {}
-.table__heading_theme_dark {}
-.table__text_theme_dark  {}
-
-.kaufman__triangle {
-  width: 877px;
-  height: 877px;
-  background-image: url('../../images/kaufman-triangle.svg');
-  background-size: 877px 877px;
-  position: absolute;
-  right: -210px;
-  top: 0;
-  z-index: 1;
 }
