@@ -2,5 +2,6 @@
 display: flex;
 position: relative;
 height: 620px;
+align-items: flex-start;
 }
 

@@ -1,11 +1,9 @@
 /*Высота строки 42px, шрифта 30px, начертание шрифта нормальное*/
-
 .khan__buy-link {
   color: #2f80ed;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   text-decoration: none;
-  left: 668px;
-  position: absolute;
+  margin-left: 668px;
 }

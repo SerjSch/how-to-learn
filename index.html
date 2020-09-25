@@ -4,34 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link href="./blocks/vendor/normalize.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/page/page.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/header/header.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/description/description.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/techniques/techniques.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/video/video.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/oakley/oakley.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/feynman/feynman.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/digits/digits.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/khan/khan.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/kaufman/kaufman.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/resources/resources.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/two-columns/two-columns.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/table/table.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/footer/footer.css" type="text/css" rel="stylesheet">
-  <link href="./blocks/section/section.css" type="text/css" rel="stylesheet">
+  <link href="./pages/index.css" type="text/css" rel="stylesheet">
 </head>
-
 <body>
   <div class="page">
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
-      Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class=header__link href="#">Узнать &#8594;</a>
+      Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link page__link" href="#">Узнать &#8594;</a>
       </p>
       <img class="header__main-illustration"  src="./images/header-image.png" alt="мальчик">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -44,56 +28,46 @@
             </div>
         </div>
       </section>
-
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-
         <div class="cards">
-
           <div class="cards__item">
             <img class="cards__image"  src="./images_sprint-2/cards-attention.png" alt="внимание">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </div>
-
           <div class="cards__item">
             <img class="cards__image"  src="./images_sprint-2/cards-recall.png" alt="вспомните">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
-
           <div class="cards__item">
             <img class="cards__image"  src="./images_sprint-2/cards-interliving.png" alt="интерливинг">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
-
           <div class="cards__item">
             <img class="cards__image"  src="./images_sprint-2/cards-question.png" alt="вопросы">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </div>
-
           <div class="cards__item">
             <img class="cards__image"  src="./images_sprint-2/cards-competence.png" alt="иллюзия">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </div>
-
         </div>
-
       </section>
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div>
-              <iframe class="video__iframes" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <iframe class="video__iframes" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video__iframes">
+              <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
-
-        <section class="description oakley">
+        <section class="oakley">
           <div class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
               <div class="two-columns__main-text">
@@ -102,11 +76,9 @@
               </div>
           </div>
         </section>
-
-
       <section class="feynman"><h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a class="feynman__link" href="#">Подробнее &#8594;</a>
+        <a class="feynman__link page__link" href="#">Подробнее &#8594;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -148,8 +120,6 @@
           </div>
         </div>
       </section>
-
-
     <section class="khan">
       <div class="khan__container">
         <p class="khan__author">Салман Хан</p>
@@ -162,13 +132,10 @@
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
           <img class="khan__book-pic" src="./images_sprint-2/khan-book.jpg" alt="книга">
-          <a class="khan__buy-link" href="#">Купить книгу &#8594;</a>>
+          <a class="khan__buy-link page__link" href="#">Купить книгу &#8594;</a>
         </div>
       </div>
       </section>
-
-
-
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
@@ -214,17 +181,20 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
         </div>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
-
   <section class="resources">
     <h2 class="section-title">Полезные ресурсы</h2>
     <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
     <div class="resources__logo-zone">
-      <img class="resources__logo" src="./images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас">
-      <img class="resources__logo" src="./images_sprint-2/logo/resources-n1.svg" alt="Н+1">
-      <img class="resources__logo" src="./images_sprint-2/logo/resources-polka.svg" alt="Стрелка">
-      <img class="resources__logo" src="./images_sprint-2/logo/resources-strelka.svg" alt="Полка">
+      <a class="resources__link page__link" href="#">
+        <img class="resources__logo" src="./images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас"></a>
+      <a class="resources__link page__link" href="#">
+        <img class="resources__logo" src="./images_sprint-2/logo/resources-n1.svg" alt="Н+1"></a>
+      <a class="resources__link page__link" href="#">
+        <img class="resources__logo" src="./images_sprint-2/logo/resources-polka.svg" alt="Стрелка"></a>
+      <a class="resources__link page__link" href="#">
+        <img class="resources__logo" src="./images_sprint-2/logo/resources-strelka.svg" alt="Полка"></a>
    </div>
   </section>
     </main>
@@ -237,19 +207,19 @@
         <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
           <ul class="footer__column-links">
-            <li><a class="footer__column-link" href="#">Главная</a></li>
-            <li><a class="footer__column-link" href="#">Концепция</a></li>
-            <li><a class="footer__column-link" href="#">Наставники</a></li>
+            <li><a class="footer__column-link page__link" href="#">Главная</a></li>
+            <li><a class="footer__column-link page__link" href="#">Концепция</a></li>
+            <li><a class="footer__column-link page__link" href="#">Наставники</a></li>
           </ul>
         </nav>
         <nav class="footer__column footer__column_content_social">
             <h2 class="footer__column-heading">Соцсети</h2>
             <ul class="footer__column-links">
-              <li><a class="footer__column-link" href="#">
+              <li><a class="footer__column-link page__link" href="#">
                 <img class="footer__social-icon"  src="./images/facebook_color_white.svg" alt="Фейсбук">Facebook</a></li>
-              <li><a class="footer__column-link" href="#">
+              <li><a class="footer__column-link page__link" href="#">
                 <img class="footer__social-icon"  src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a></li>
-              <li><a class="footer__column-link" href="#">
+              <li><a class="footer__column-link page__link" href="#">
                <img class="footer__social-icon"  src="./images/instagram_color_white.svg" alt="Инстаграм">Instagram</a></li>
               </ul>
           </nav>
